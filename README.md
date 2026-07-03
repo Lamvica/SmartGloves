@@ -28,6 +28,7 @@ The system uses Flex Sensors attached to each finger to measure bending angles. 
 ## 🛠 Technologies
 
 ### Hardware
+<<<<<<< HEAD
 
 - ESP32-S3
 - Flex Sensors
@@ -44,11 +45,25 @@ The system uses Flex Sensors attached to each finger to measure bending angles. 
 - Java
 - C++
 - JavaScript
+=======
+- ESP32-S3
+- Flex Sensors
+- Speaker
+- Power Supply
+
+### Software
+- Arduino IDE
+- Android Studio
+- Node.js
+- Firebase Realtime Database
+- VS Code
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 
 ---
 
 ## 📂 Project Structure
 
+<<<<<<< HEAD
 ```text
 SmartGloves
 │
@@ -58,12 +73,24 @@ SmartGloves
 ├── Images/                # Project images
 ├── README.md
 └── .gitignore
+=======
+```
+SmartGloves
+│
+├── Firmware/          # ESP32-S3 source code
+├── AndroidApp/        # Android application
+├── Server/            # Node.js TTS server
+├── Documents/         # Reports and documents
+├── Images/            # Images and diagrams
+└── README.md
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 ```
 
 ---
 
 ## ⚙️ Installation
 
+<<<<<<< HEAD
 ### 1. ESP32 Firmware
 
 - Open the `Firmware` folder using Arduino IDE.
@@ -71,11 +98,20 @@ SmartGloves
 - Select your ESP32-S3 development board.
 - Configure Wi-Fi credentials.
 - Upload the firmware.
+=======
+### 1. Firmware (ESP32-S3)
+
+- Open the `Firmware` folder using Arduino IDE.
+- Install required libraries.
+- Select your ESP32-S3 board.
+- Upload the code.
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 
 ---
 
 ### 2. Android Application
 
+<<<<<<< HEAD
 Open the Android project using Android Studio.
 
 Add your Firebase configuration file:
@@ -93,6 +129,23 @@ Install the APK on your Android phone.
 ### 3. Node.js TTS Server
 
 Open Terminal inside the Server folder.
+=======
+Open the `AndroidApp` project in Android Studio.
+
+Add your Firebase configuration:
+
+```
+app/google-services.json
+```
+
+Sync Gradle and run the application.
+
+---
+
+### 3. TTS Server
+
+Go to the Server folder.
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 
 Install dependencies:
 
@@ -100,7 +153,11 @@ Install dependencies:
 npm install
 ```
 
+<<<<<<< HEAD
 Start the server:
+=======
+Run the server:
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 
 ```bash
 npm start
@@ -111,6 +168,7 @@ npm start
 ## 🚀 System Workflow
 
 1. User performs a hand gesture.
+<<<<<<< HEAD
 2. Flex Sensors measure finger bending.
 3. ESP32-S3 reads sensor voltage values.
 4. The gesture is recognized.
@@ -179,6 +237,31 @@ Flex Sensors
 - Android Studio
 - Node.js
 - Visual Studio Code
+=======
+2. Flex Sensors detect finger bending.
+3. ESP32-S3 reads sensor voltage values.
+4. Gesture is identified.
+5. Data is sent through IoT.
+6. Android receives the gesture.
+7. TTS Server generates speech.
+8. Audio is played to the user.
+
+---
+
+## 📸 Demo
+
+### Hardware
+
+![Smart Glove 1](Images/Gloves1.jpg)
+
+![Smart Glove 2](Images/Gloves2.jpg)
+
+### Android Application
+
+![Application 1](Images/App1.png)
+
+![Application 2](Images/App2.png)
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 
 ---
 
@@ -188,10 +271,18 @@ Flex Sensors
 
 Graduation Project
 
+<<<<<<< HEAD
 Hanoi University of Natural Resources and Environment
+=======
+University of Natural Resources and Environment Hanoi
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
 
 ---
 
 ## 📄 License
 
+<<<<<<< HEAD
 This project is developed for educational and research purposes only.
+=======
+This project is intended for educational and research purposes.
+>>>>>>> 7c86cda36fc9f56e31689e2f22a9b2d58c89527f
