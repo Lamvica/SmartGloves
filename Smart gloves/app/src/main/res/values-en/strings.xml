@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Smart Gloves</string>
+    <string name="title_home">Home</string>
+    <string name="title_voice_settings">Voice Settings</string>
+    <string name="title_add_gesture">Add Gesture</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_history">History</string>
+    <string name="title_connection">Connection</string>
+    <string name="title_list_gestures">Gesture List</string>
+    <string name="title_account">Account</string>
+    <string name="title_speech_to_text">Speech to Text</string>
+    
+    <!-- Home -->
+    <string name="current_gesture">Current Gesture</string>
+    <string name="no_gesture_detected">No Gesture Detected</string>
+    <string name="no_gestures_message">No Gestures</string>
+    <string name="play_sound">Play Sound</string>
+    <string name="speech_to_text">Speech to Text</string>
+    <string name="start_listening">Start Listening</string>
+    <string name="stop_listening">Stop Listening</string>
+    <string name="listening">Listening…</string>
+    <string name="speech_result">Recognition Result:</string>
+    <string name="speech_error">Speech Recognition Error</string>
+    <string name="no_speech">No Speech Detected</string>
+    <string name="permission_required">Recording permission required to use this feature</string>
+    
+    <!-- Voice Settings -->
+    <string name="voice_gender">Voice Gender</string>
+    <string name="voice_male">Male</string>
+    <string name="voice_female">Female</string>
+    <string name="voice_speed">Speed</string>
+    <string name="voice_volume">Volume</string>
+    <string name="save_settings">Save Settings</string>
+    
+    <!-- Add Gesture -->
+    <string name="gesture_name">Gesture Name</string>
+    <string name="sensor_values">Sensor Values</string>
+    <string name="gesture_text">Corresponding Text</string>
+    <string name="add_gesture_button">Add Gesture</string>
+    <string name="category_label">Category</string>
+    <string name="category_all">All</string>
+    <string name="category_daily">Daily Phrases</string>
+    <string name="category_edit_required">Phrases Need Editing</string>
+    <string name="category_conversation">Conversation Phrases</string>
+    <string name="add_category">Add Category</string>
+    <string name="enter_category_name">Enter Category Name</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="confirm_delete_category">Are you sure you want to delete category \"%1$s\"?</string>
+    
+    <!-- History -->
+    <string name="history_empty">No History</string>
+    <string name="time">Time</string>
+    <string name="gesture">Gesture</string>
+    
+    <!-- Connection -->
+    <string name="connect_device">Connect Device</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="scanning">Scanning devices…</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi">WiFi</string>
+    
+    <!-- Account -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    
+    <!-- Settings Menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_theme_light">Light Mode</string>
+    <string name="menu_theme_dark">Dark Mode</string>
+    <string name="menu_language_vietnamese">Tiếng Việt</string>
+    <string name="menu_language_english">English</string>
+    <string name="menu_change_theme">Change Theme</string>
+    <string name="menu_change_language">Change Language</string>
+    
+    <!-- Edit and Delete -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="edit_gesture">Edit Gesture</string>
+    <string name="delete_gesture">Delete Gesture</string>
+    <string name="confirm_delete_gesture">Are you sure you want to delete gesture \"%1$s\"?</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="gesture_name_hint">Gesture Name</string>
+    <string name="gesture_text_hint">Phrase</string>
+    <string name="fill_all_fields">Please fill in all fields</string>
+    <string name="gesture_deleted">Gesture deleted</string>
+    <string name="delete_error">Delete error: %1$s</string>
+    <string name="no_text_to_speak">No text to speak</string>
+</resources>
+

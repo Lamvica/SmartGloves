@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="lam.tm.smartgloves.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_voice_settings"
+        android:name="lam.tm.smartgloves.ui.voicesettings.VoiceSettingsFragment"
+        android:label="@string/title_voice_settings"
+        tools:layout="@layout/fragment_voice_settings" />
+
+    <fragment
+        android:id="@+id/navigation_add_gesture"
+        android:name="lam.tm.smartgloves.ui.addgesture.AddGestureFragment"
+        android:label="@string/title_add_gesture"
+        tools:layout="@layout/fragment_add_gesture" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="lam.tm.smartgloves.ui.categories.CategoryFragment"
+        android:label="@string/title_categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="lam.tm.smartgloves.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_connection"
+        android:name="lam.tm.smartgloves.ui.connection.ConnectionSettingsFragment"
+        android:label="@string/title_connection"
+        tools:layout="@layout/fragment_connection_settings" />
+
+    <fragment
+        android:id="@+id/navigation_list_gestures"
+        android:name="lam.tm.smartgloves.ui.listgestures.ListGesturesFragment"
+        android:label="@string/title_list_gestures"
+        tools:layout="@layout/fragment_list_gestures" />
+
+    <fragment
+        android:id="@+id/navigation_edit_profile"
+        android:name="lam.tm.smartgloves.ui.profile.EditProfileFragment"
+        android:label="Sửa thông tin cá nhân"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <fragment
+        android:id="@+id/navigation_wav_files"
+        android:name="lam.tm.smartgloves.ui.wavfiles.WavFilesFragment"
+        android:label="@string/title_wav_files"
+        tools:layout="@layout/fragment_wav_files" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="lam.tm.smartgloves.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

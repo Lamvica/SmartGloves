@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gesture_categories">
+        <item>@string/category_daily</item>
+        <item>@string/category_edit_required</item>
+        <item>@string/category_conversation</item>
+    </string-array>
+    
+    <string-array name="finger_options">
+        <item>ngoncai</item>
+        <item>ngontro</item>
+        <item>ngongiua</item>
+        <item>ngonaput</item>
+        <item>ngonut</item>
+    </string-array>
+    
+    <string-array name="c_options">
+        <item>c1</item>
+        <item>c2</item>
+    </string-array>
+</resources>
+
+

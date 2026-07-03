@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "934425105051",
+    "firebase_url": "https://smart-glove-1769e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-glove-1769e",
+    "storage_bucket": "smart-glove-1769e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934425105051:android:bad627c656d72e970aec3e",
+        "android_client_info": {
+          "package_name": "lam.tm.smartgloves"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqdtxB6GShbtps13QoA34N0pmAt6Yv8S0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Smart Gloves</string>
+    <string name="title_home">Trang chính</string>
+    <string name="title_voice_settings">Cài đặt giọng nói</string>
+    <string name="title_add_gesture">Thêm cử chỉ</string>
+    <string name="title_categories">Danh mục</string>
+    <string name="title_history">Lịch sử</string>
+    <string name="title_connection">Kết nối</string>
+    <string name="title_list_gestures">Danh sách cử chỉ</string>
+    <string name="title_settings">Cài đặt</string>
+    <string name="title_account">Tài khoản</string>
+    <string name="title_speech_to_text">Chuyển giọng nói</string>
+    
+    <!-- Home -->
+    <string name="current_gesture">Cử chỉ hiện tại</string>
+    <string name="no_gesture_detected">Chưa có cử chỉ</string>
+    <string name="no_gestures_message">Chưa có cử chỉ</string>
+    <string name="play_sound">Phát âm thanh</string>
+    <string name="speech_to_text">Chuyển giọng nói thành chữ</string>
+    <string name="start_listening">Bắt đầu nghe</string>
+    <string name="stop_listening">Dừng nghe</string>
+    <string name="listening">Đang nghe…</string>
+    <string name="speech_result">Kết quả nhận diện:</string>
+    <string name="speech_error">Lỗi nhận diện giọng nói</string>
+    <string name="no_speech">Không có giọng nói được phát hiện</string>
+    <string name="permission_required">Cần quyền ghi âm để sử dụng tính năng này</string>
+    
+    <!-- Voice Settings -->
+    <string name="voice_gender">Giới tính giọng nói</string>
+    <string name="voice_male">Nam</string>
+    <string name="voice_female">Nữ</string>
+    <string name="voice_speed">Tốc độ</string>
+    <string name="voice_volume">Âm lượng</string>
+    <string name="save_settings">Lưu cài đặt</string>
+    
+    <!-- Add Gesture -->
+    <string name="gesture_name">Tên cử chỉ</string>
+    <string name="select_fingers">Chọn ngón tay</string>
+    <string name="thumb">Ngón cái</string>
+    <string name="index">Ngón trỏ</string>
+    <string name="middle">Ngón giữa</string>
+    <string name="ring">Ngón áp út</string>
+    <string name="pinky">Ngón út</string>
+    <string name="select_at_least_one_finger">Vui lòng chọn ít nhất một ngón tay</string>
+    <string name="sensor_values">Giá trị cảm biến</string>
+    <string name="gesture_text">Câu nói tương ứng</string>
+    <string name="add_gesture_button">Thêm cử chỉ</string>
+    <string name="category_label">Danh mục</string>
+    <string name="category_all">Tất cả</string>
+    <string name="all_categories">Tất cả</string>
+    <string name="category_daily">Câu nói hàng ngày</string>
+    <string name="category_edit_required">Câu nói cần chỉnh sửa</string>
+    <string name="category_conversation">Câu nói giao tiếp</string>
+    <string name="add_category">Thêm danh mục</string>
+    <string name="enter_category_name">Nhập tên danh mục</string>
+    <string name="edit_category">Sửa danh mục</string>
+    <string name="delete_category">Xóa danh mục</string>
+    <string name="confirm_delete_category">Bạn có chắc muốn xóa danh mục "%1$s"?</string>
+    
+    <!-- History -->
+    <string name="history_empty">Chưa có lịch sử</string>
+    <string name="time">Thời gian</string>
+    <string name="gesture">Cử chỉ</string>
+    
+    <!-- Connection -->
+    <string name="connect_device">Kết nối thiết bị</string>
+    <string name="connection_status">Trạng thái kết nối</string>
+    <string name="connected">Đã kết nối</string>
+    <string name="disconnected">Chưa kết nối</string>
+    <string name="scanning">Đang quét thiết bị…</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi">WiFi</string>
+    
+    <!-- Account -->
+    <string name="login">Đăng nhập</string>
+    <string name="signup">Đăng ký</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="profile">Thông tin cá nhân</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    
+    <!-- Settings Menu -->
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_theme_light">Chế độ sáng</string>
+    <string name="menu_theme_dark">Chế độ tối</string>
+    <string name="menu_language_vietnamese">Tiếng Việt</string>
+    <string name="menu_language_english">English</string>
+    <string name="menu_change_theme">Chuyển đổi giao diện</string>
+    <string name="menu_change_language">Chuyển đổi ngôn ngữ</string>
+    
+    <!-- Edit and Delete -->
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="edit_gesture">Sửa cử chỉ</string>
+    <string name="delete_gesture">Xóa cử chỉ</string>
+    <string name="confirm_delete_gesture">Bạn có chắc muốn xóa cử chỉ "%1$s"?</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="gesture_name_hint">Tên cử chỉ</string>
+    <string name="gesture_text_hint">Câu nói</string>
+    <string name="fill_all_fields">Vui lòng điền đầy đủ thông tin</string>
+    <string name="gesture_deleted">Đã xóa cử chỉ</string>
+    <string name="delete_error">Lỗi xóa: %1$s</string>
+    <string name="no_text_to_speak">Không có câu nói để phát</string>
+    
+    <!-- Audio Files -->
+    <string name="title_wav_files">File âm thanh</string>
+    <string name="no_wav_files">Chưa có file âm thanh</string>
+    <string name="convert_to_wav">Chuyển đổi thành MP3</string>
+    <string name="play">Phát</string>
+    <string name="convert_to_voice">Chuyển thành giọng nói</string>
+</resources>

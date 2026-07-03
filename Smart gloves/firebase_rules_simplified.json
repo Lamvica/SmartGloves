@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "gestures": {
+      ".read": true,
+      ".write": true
+    },
+    "wavFiles": {
+      ".read": true,
+      ".write": true
+    },
+    "users": {
+      "$userId": {
+        ".read": true,
+        ".write": true,
+        "gestures": {
+          ".read": true,
+          ".write": true
+        },
+        "wavFiles": {
+          ".read": true,
+          ".write": true
+        }
+      }
+    }
+  }
+}

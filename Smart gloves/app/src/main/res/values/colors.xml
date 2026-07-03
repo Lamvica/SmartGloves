@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#81D4FA</color>
+    <color name="primary_blue_dark">#4FC3F7</color>
+    <color name="primary_blue_light">#B3E5FC</color>
+    <color name="accent_blue">#29B6F6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    
+    <!-- Light blue colors for new design -->
+    <color name="purple_dark">#87CEEB</color> <!-- Sky blue - main color -->
+    <color name="purple_light">#B0E0E6</color> <!-- Powder blue - lighter variant -->
+    <color name="purple_overlay">#80000000</color>
+
+    <!-- Semantic colors for theme switching -->
+    <color name="app_background">#F5F7FA</color>
+    <color name="app_surface">#FFFFFF</color>
+    <color name="on_surface">#111827</color>
+</resources>

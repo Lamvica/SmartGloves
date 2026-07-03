@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.voicesettings.VoiceSettingsFragment">
+
+    <include
+        android:id="@+id/toolbar_back"
+        layout="@layout/toolbar_back"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="24dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voice_speed"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="32dp"
+            android:gravity="center_vertical">
+
+            <SeekBar
+                android:id="@+id/seek_bar_speed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="50"
+            android:progressTint="@color/purple_dark"
+            android:thumbTint="@color/purple_dark" />
+
+            <TextView
+                android:id="@+id/text_speed_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.0x"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:minWidth="50dp"
+                android:gravity="center"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voice_volume"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="32dp"
+            android:gravity="center_vertical">
+
+            <SeekBar
+                android:id="@+id/seek_bar_volume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="100"
+            android:progressTint="@color/purple_dark"
+            android:thumbTint="@color/purple_dark" />
+
+            <TextView
+                android:id="@+id/text_volume_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:minWidth="50dp"
+                android:gravity="center"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_settings"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_dark"
+            android:textColor="@color/white"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Speech to Text Section -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/label_speech_to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speech_to_text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_speech_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_listening"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/purple_dark"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Voice Animation Indicator -->
+        <LinearLayout
+            android:id="@+id/voice_indicator_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/voice_wave_1"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:background="@color/purple_dark"
+                android:layout_marginEnd="4dp"
+                android:alpha="0.3" />
+
+            <View
+                android:id="@+id/voice_wave_2"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:background="@color/purple_dark"
+                android:layout_marginEnd="4dp"
+                android:alpha="0.5" />
+
+            <View
+                android:id="@+id/voice_wave_3"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:background="@color/purple_dark"
+                android:layout_marginEnd="4dp"
+                android:alpha="0.7" />
+
+            <View
+                android:id="@+id/voice_wave_4"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:background="@color/purple_dark"
+                android:layout_marginEnd="4dp"
+                android:alpha="0.9" />
+
+            <View
+                android:id="@+id/voice_wave_5"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:background="@color/purple_dark"
+                android:alpha="1.0" />
+
+        </LinearLayout>
+
+        <!-- Small text result box at bottom -->
+        <TextView
+            android:id="@+id/text_speech_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/speech_result"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:padding="12dp"
+            android:minHeight="60dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical|start"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Speech History Section -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/label_speech_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch sử (10 đoạn gần nhất)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_speech_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="400dp"
+            android:nestedScrollingEnabled="false" />
+
+        <TextView
+            android:id="@+id/text_empty_speech_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa có lịch sử"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
